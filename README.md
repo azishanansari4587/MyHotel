@@ -17,8 +17,9 @@ MyHotel is a full-stack hotel booking system where users can register, book hote
 ### **Frontend** (React.js)
 - React
 - Tailwind CSS
+- Shadcn UI
 - React Router
-- Axios (for API calls)
+- Vite
 
 ### **Backend** (Node.js + Prisma + PostgreSQL)
 - Node.js
