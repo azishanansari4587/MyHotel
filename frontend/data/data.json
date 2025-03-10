@@ -1,0 +1,273 @@
+{
+  "user": [
+    {
+      "id": "3f47",
+      "fullName": "Mohammad Zishan Ansari",
+      "email": "azishanansari4587@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "d18a",
+      "fullName": "Azam Ansari",
+      "email": "azam@gmail.com",
+      "password": "Azam@123"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "fbda",
+      "userId": "3f47",
+      "hotelId": "3",
+      "checkInDate": "2025-03-10T08:40:59.938Z",
+      "checkOutDate": "2025-03-11T08:40:59.938Z",
+      "members": 2
+    },
+    {
+      "id": "588a",
+      "userId": "3f47",
+      "hotelId": "2",
+      "checkInDate": "2025-03-10T08:41:11.722Z",
+      "checkOutDate": "2025-03-11T08:41:11.722Z",
+      "members": 2
+    },
+    {
+      "id": "7ae9",
+      "userId": "3f47",
+      "hotelId": "9",
+      "checkInDate": "2025-03-10T08:45:01.151Z",
+      "checkOutDate": "2025-03-11T08:45:01.151Z",
+      "members": 2
+    },
+    {
+      "id": "a552",
+      "userId": "3f47",
+      "hotelId": "2",
+      "checkInDate": "2025-03-10T08:46:17.442Z",
+      "checkOutDate": "2025-03-11T08:46:17.442Z",
+      "members": 2
+    },
+    {
+      "id": "cfb4",
+      "userId": "3f47",
+      "hotelId": "1",
+      "checkInDate": "2025-03-10T08:47:27.384Z",
+      "checkOutDate": "2025-03-11T08:47:27.384Z",
+      "members": 2
+    },
+    {
+      "id": "c002",
+      "userId": "3f47",
+      "hotelId": "2",
+      "checkInDate": "2025-03-10T08:47:39.066Z",
+      "checkOutDate": "2025-03-11T08:47:39.066Z",
+      "members": 2
+    },
+    {
+      "id": "3896",
+      "userId": "3f47",
+      "hotelId": "1",
+      "checkInDate": "2025-03-10T08:53:13.043Z",
+      "checkOutDate": "2025-03-11T08:53:13.043Z",
+      "members": 2
+    },
+    {
+      "id": "006f",
+      "userId": "3f47",
+      "hotelId": "1",
+      "checkInDate": "2025-03-10T08:53:15.085Z",
+      "checkOutDate": "2025-03-11T08:53:15.085Z",
+      "members": 2
+    },
+    {
+      "id": "8ba2",
+      "userId": "3f47",
+      "hotelId": "2",
+      "checkInDate": "2025-03-10T08:54:06.058Z",
+      "checkOutDate": "2025-03-11T08:54:06.058Z",
+      "members": 2
+    },
+    {
+      "id": "a08d",
+      "userId": "3f47",
+      "hotelId": "5",
+      "checkInDate": "2025-03-10T08:56:08.703Z",
+      "checkOutDate": "2025-03-11T08:56:08.703Z",
+      "members": 2
+    },
+    {
+      "id": "7b0a",
+      "userId": "3f47",
+      "hotelId": "1",
+      "checkInDate": "2025-03-10T08:59:13.248Z",
+      "checkOutDate": "2025-03-11T08:59:13.248Z",
+      "members": 2
+    }
+  ],
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Taj Hotel",
+      "location": "Mumbai",
+      "price": 5000,
+      "amenities": [
+        "🛜 WiFi",
+        "🏊‍♀️ Pool",
+        "🚘 Parking"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg"
+    },
+    {
+      "id": "2",
+      "name": "The Oberoi",
+      "location": "Delhi",
+      "price": 7000,
+      "amenities": [
+        "🛜 WiFi",
+        "💪 Gym",
+        "💆🏼‍♀️ Spa"
+      ],
+      "image": "https://www.oberoihotels.com/-/media/oberoi-hotels/home-detail/udaivilas.png?w=906&extension=webp&hash=b73401e3c190c493a8be55495e60e026"
+    },
+    {
+      "id": "3",
+      "name": "Leela Palace",
+      "location": "Bangalore",
+      "price": 6500,
+      "amenities": [
+        "🛜 WiFi",
+        "🏊‍♀️ Pool",
+        "🥘 Restaurant"
+      ],
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/46/28/b9/peacock-lounge.jpg?w=900&h=500&s=1"
+    },
+    {
+      "id": "4",
+      "name": "ITC Grand Chola",
+      "location": "Chennai",
+      "price": 6000,
+      "amenities": [
+        "🛜 WiFi",
+        "🍺 Bar",
+        "💪 Gym"
+      ],
+      "image": "https://www.kayak.co.in/rimg/himg/50/2b/b6/leonardo-438996-189019832-570467.jpg?width=1366&height=768&crop=true"
+    },
+    {
+      "id": "5",
+      "name": "JW Marriott",
+      "location": "Kolkata",
+      "price": 7500,
+      "amenities": [
+        "🛜 WiFi",
+        "💆🏼‍♀️ Spa",
+        "🚘 Parking"
+      ],
+      "image": "https://s3.amazonaws.com/adroitart/salarpuria/locations/images/34/original/jwmarriott_list_img.jpg?1608453434"
+    },
+    {
+      "id": "6",
+      "name": "Hyatt Regency",
+      "location": "Pune",
+      "price": 7200,
+      "amenities": [
+        "🛜 WiFi",
+        "🏊‍♀️ Pool",
+        "💪 Gym"
+      ],
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/c6/32/11/hyatt-regency-delhi.jpg?w=900&h=500&s=1"
+    },
+    {
+      "id": "7",
+      "name": "Radisson Blu",
+      "location": "Jaipur",
+      "price": 5800,
+      "amenities": [
+        "🛜 WiFi",
+        "🥘 Restaurant",
+        "🚘 Parking"
+      ],
+      "image": "https://media.radissonhotels.net/image/radisson-blu-hotel-jaipur/exteriorview/16256-116522-f64874139_3xl.jpg?impolicy=HomeHero"
+    },
+    {
+      "id": "8",
+      "name": "Trident Hotel",
+      "location": "Udaipur",
+      "price": 6800,
+      "amenities": [
+        "🛜 WiFi",
+        "☱ Lake View",
+        "🍺 Bar"
+      ],
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/22148398.jpg?k=9c609393d92e8f441ff6b633e29ee05f0ffa0a8622c8738455974ccdcb1b205e&o="
+    },
+    {
+      "id": "9",
+      "name": "The Lalit",
+      "location": "Goa",
+      "price": 9000,
+      "amenities": [
+        "🛜 WiFi",
+        "🏖️ Beach Access",
+        "💆🏼‍♀️ Spa"
+      ],
+      "image": "https://www.thelalit.com/wp-content/uploads/2018/08/The-Lalit-Goa-Villa-Mobile.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Novotel",
+      "location": "Hyderabad",
+      "price": 5500,
+      "amenities": [
+        "🛜 WiFi",
+        "🏊‍♀️ Pool",
+        "💪 Gym"
+      ],
+      "image": "https://ik.imgkit.net/3vlqs5axxjf/external/https://www.cfmedia.vfmleonardo.com/imageRepo/7/0/109/667/719/6182_ho_00_p_953x385_O.jpg?tr=w-940%2Ch-529%2Cfo-auto%2Cdi-ami-fallback.png"
+    }
+  ],
+  "checkins": [
+    {
+      "id": "73be",
+      "userId": "3f47",
+      "aadhaarNumbers": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "5966",
+      "userId": "3f47",
+      "aadhaarNumbers": [
+        "1273304"
+      ]
+    },
+    {
+      "id": "ab65",
+      "userId": "3f47",
+      "aadhaarNumbers": [
+        ""
+      ]
+    },
+    {
+      "id": "f45d",
+      "userId": "3f47",
+      "aadhaarNumbers": [
+        ""
+      ]
+    },
+    {
+      "id": "5a4b",
+      "userId": "3f47",
+      "aadhaarNumbers": [
+        "12792539"
+      ]
+    },
+    {
+      "id": "cdae",
+      "userId": "3f47",
+      "aadhaarNumbers": [
+        ""
+      ]
+    }
+  ]
+}
